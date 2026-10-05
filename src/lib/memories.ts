@@ -1,0 +1,7 @@
+export const memories = [
+  { id: "room", asset: "memory-room", number: "01", title: "The room remembers.", label: "A place", detail: "The light was different that afternoon. You still remember how it felt to be there.", alt: "Evening light and an open window in an empty room, a sheer curtain lifted by the breeze.", position: "58% 50%", mobilePosition: "78% 50%" },
+  { id: "rain", asset: "memory-rain", number: "02", title: "On the way to someone.", label: "A journey", detail: "A familiar name on your screen. A city passing in the rain. The feeling of being expected.", alt: "Rain beads on a night train window, catching the amber lights of a passing city.", position: "50% 50%", mobilePosition: "50% 50%" },
+  { id: "sea", asset: "memory-sea", number: "03", title: "Nothing needed saying.", label: "A silence", detail: "For a little while, the world was only this. The tide, the air, someone beside you.", alt: "Two small figures walk beside a vast, quiet sea at dusk.", position: "66% 50%", mobilePosition: "94% 50%" },
+  { id: "dance", asset: "memory-dance", number: "04", title: "Forgetting to be afraid.", label: "A feeling", detail: "You stopped thinking about how you looked. You were simply there. So was someone else.", alt: "Two adults move together through a shaft of warm light on a dark dance floor.", position: "60% 50%", mobilePosition: "72% 50%" },
+] as const;
+export type MemoryId = typeof memories[number]["id"];
