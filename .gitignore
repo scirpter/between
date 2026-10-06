@@ -7,6 +7,3 @@ out/
 next-env.d.ts
 output/
 .playwright-cli/
-public/audio/*.mp3
-public/audio/*.wav
-public/audio/*.m4a
